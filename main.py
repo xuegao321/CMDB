@@ -116,7 +116,7 @@ for server in servers:
     ecs_id = server.id.split('\n')
     name_list = name.split('\n')
     ip_in = server_ips(server.id)
-    ip_out = server.addresses['eeeca76b-d15c-4736-bb7c-256cac00a3c5'][1]['addr']
+    ip_out = server.addresses['*******************'][1]['addr']
     ip_out_list = ip_out.split('\n')
     size = server.flavor['id']
     size_list = size.split('\n')
